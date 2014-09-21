@@ -1,0 +1,292 @@
+body,header,container,content,sidebar,footer,p,img,ul,li{
+margin:0;
+padding:0;
+}
+body{
+background-color:#000;
+background-image:url(../img/speace2.jpg);
+background-size:30%;
+background-repeat:repeat-x;
+}
+
+#container{
+width:1000px;
+margin: auto;
+
+}
+/*ヘッダー*/
+#header{
+position:relative;
+z-index:1;
+margin-bottom:20px;
+width:998px;
+height:305px;
+background-image:url(../img/bill.png);
+}
+
+.bic,.bic2,.bic3,.bic4,.bic5,.bic6{
+	opacity:0.3;
+	}
+
+#header .bic{
+	z-index: 2;
+	position: absolute;
+	left: 8px;
+	top: 95px;
+}
+
+#header .bic2{
+	z-index: 3;
+	position: absolute;
+	left: 83px;
+	top: 94px;
+}
+
+#header .bic3{
+	z-index: 4;
+	position: absolute;
+	left: 138px;
+	top: 174px;
+}
+#header .bic4{
+	z-index: 5;
+	position: absolute;
+	left: 21px;
+	top: 135px;
+}
+#header .bic5{
+	z-index: 6;
+	position: absolute;
+	left: 46px;
+	top: 166px;
+}
+#header .bic6{
+	z-index: 7;
+	position: absolute;
+	left: 177px;
+	top: 170px;
+}
+
+
+#header .beer{
+z-index:997;
+position:absolute;
+left:700px;
+top:60px;
+
+}
+#header .cola{
+z-index:998;
+position:absolute;
+
+left:580px;
+top:120px;
+}
+#header .teq{
+z-index:999;
+position:absolute;
+
+left:440px;
+top:80px;
+}
+#header .wine{
+z-index:1000;
+position:absolute;
+
+left:300px;
+top:140px;
+}	
+#info{
+margin-bottom:20px;
+width:990px;
+height:80px;
+background:#BBB;
+position:relative;
+	}
+
+
+#second,#third,#sidebar,#info{
+border-radius:10px;
+border:4px solid #CCC;
+  }
+#second h3,#third h3,#sidebar h3,#content h3{
+border-radius:4px;
+
+  }
+
+/*本文*/
+#wrapper{
+  float:left;
+  width:700px;
+  }
+#content{
+
+width:410px;
+float:right;
+margin:0;
+padding:0;
+background-color:#CCC;
+}
+#content h3{
+  width:390px;
+  height:30px;
+  background-image:url(../img/sintyaku.png);
+  margin:10px;
+  }
+
+
+#box{
+float:left;
+width:380px;
+height:140px;
+background:#FFF;
+margin:0 15px 20px 15px;
+z-index:1;
+border:#AAA 1px solid;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+}
+#box .title{
+  height:24px;
+  line-height:1.0em;
+  margin-top:0;
+  margin-bottom:10px;
+  padding-top:4px; 
+  background:#333;
+  }
+#box .title p{
+	margin-left:10px;
+	font-size:0.9em;
+	font-weight:bold;
+	color:#FFF;
+	}
+#box img{
+  padding:0px;
+  margin-left:10px;
+	}
+
+#box .bun{
+  padding:0px;
+  line-height:1.5em;
+  width:260px;
+  float:right;
+  font-size:0.8em;
+  }
+#box dl{
+	width:380px;
+	z-index:2;
+	position:relative;
+	bottom:20px;
+	font-size:0.8em;
+	
+	
+}
+
+#box dl dt{
+	text-align:center;
+	color:#06F;
+	}
+
+#box dl dd{
+	border-top:1px solid #FFF;
+	border-left:#AAA 1px solid;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  	border-right:#AAA 1px solid;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  	border-bottom:#AAA 1px solid;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  height:80px;
+  background:#FFF;
+  margin:0;
+	}
+#box dl dd p{
+	margin:5px;
+	line-height:1.5em;
+	}
+
+#second{
+  float:left;
+  width:270px;
+  height:400px;
+  background:#FFF;
+  margin-bottom:20px;
+  }
+#second h3{
+  width:250px;
+  height:30px;
+  background-image:url(../img/category.png);
+  margin:10px;
+  }
+#second ul{
+  list-style:none;
+  margin-left:20px;
+  
+  }
+#second ul li{
+  }
+#second ul li a{
+  text-decoration:none;
+  width:230px;
+  line-height:30px;
+  display:block;
+  color:#06F;
+  border-bottom:dashed 1px #666666;
+  font-size:0.9em;
+  }
+#second ul li a:hover{
+  color:#F60;
+  }
+#third{
+  float:left;
+  width:270px;
+  height:700px;
+  background-color:#FFF;
+  margin-bottom:20px;
+  }
+#third h3{
+  width:250px;
+  height:30px;
+  background-image:url(../img/osusume.png);
+  margin:10px;
+  }
+#third p{
+  float:left;
+  margin-left:20px;
+  margin-bottom:12px;
+  
+	}
+/*サイドバー*/
+#sidebar{
+width:280px;
+height:1120px;
+background:#FFF;
+
+float:right;
+}
+#sidebar h3{
+  width:250px;
+  height:30px;
+  background:url(../img/ruleImg.png);
+  margin:10px;
+  }
+
+#setumei{
+font-size:14px;
+}
+h4{
+	color:#CCC;
+	}
+#rule{
+	}
+/*フッター*/
+#footer{
+width: 100%;
+height:100px;
+background:#E72C16;
+clear:both;
+text-align:center;
+color:#E73317;
+}
